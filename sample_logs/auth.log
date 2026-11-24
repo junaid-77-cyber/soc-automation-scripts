@@ -1,0 +1,12 @@
+Nov 20 03:14:22 webserver sshd[12345]: Failed password for invalid user admin from 203.0.113.50 port 44231 ssh2
+Nov 20 03:14:25 webserver sshd[12345]: Failed password for invalid user admin from 203.0.113.50 port 44232 ssh2
+Nov 20 03:14:28 webserver sshd[12345]: Failed password for invalid user root from 203.0.113.50 port 44233 ssh2
+Nov 20 03:14:30 webserver sshd[12345]: Failed password for invalid user test from 198.51.100.23 port 55123 ssh2
+Nov 20 03:15:01 webserver sshd[12346]: Accepted password for developer from 192.168.1.10 port 52001 ssh2
+Nov 20 03:15:02 webserver sshd[12346]: session opened for user developer
+Nov 20 03:17:45 webserver sudo[12400]: developer : TTY=pts/0 ; PWD=/home/developer ; USER=root ; COMMAND=/bin/cat /etc/shadow
+Nov 20 03:20:11 webserver sshd[12500]: Failed password for root from 45.33.32.156 port 38921 ssh2
+Nov 20 03:20:14 webserver sshd[12500]: Failed password for root from 45.33.32.156 port 38922 ssh2
+Nov 20 03:25:00 webserver sshd[12501]: Accepted publickey for admin from 10.0.0.5 port 60001 ssh2
+Nov 20 03:25:01 webserver sshd[12501]: session opened for user admin
+Nov 20 03:30:00 webserver sshd[12502]: session closed for user developer

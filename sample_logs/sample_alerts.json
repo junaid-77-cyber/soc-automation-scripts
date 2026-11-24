@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Brute force SSH attack detected",
+    "description": "Multiple failed login attempts from 203.0.113.50",
+    "source": "ids",
+    "source_ip": "203.0.113.50",
+    "timestamp": "2026-11-20T03:14:22Z",
+    "severity": "high"
+  },
+  {
+    "title": "Brute force SSH attack detected",
+    "description": "Multiple failed login attempts from 203.0.113.50",
+    "source": "ids",
+    "source_ip": "203.0.113.50",
+    "timestamp": "2026-11-20T03:14:25Z",
+    "severity": "high"
+  },
+  {
+    "title": "Suspicious PowerShell encoded command execution",
+    "description": "Base64 encoded PowerShell command detected on workstation WS-042",
+    "source": "edr",
+    "source_ip": "10.10.5.42",
+    "timestamp": "2026-11-20T04:00:00Z",
+    "severity": "high"
+  },
+  {
+    "title": "Potential data exfiltration via DNS tunneling",
+    "description": "Unusually high DNS query volume to suspicious domain from 10.10.3.15",
+    "source": "siem",
+    "source_ip": "10.10.3.15",
+    "timestamp": "2026-11-20T04:15:00Z",
+    "severity": "critical"
+  },
+  {
+    "title": "New user created outside business hours",
+    "description": "User account svc_backup created at 02:30 AM by admin",
+    "source": "siem",
+    "source_ip": "10.10.1.5",
+    "timestamp": "2026-11-20T02:30:00Z",
+    "severity": "medium"
+  },
+  {
+    "title": "Firewall deny from known malicious IP",
+    "description": "Outbound connection to 198.51.100.100 blocked by firewall rule",
+    "source": "firewall",
+    "source_ip": "10.10.2.20",
+    "timestamp": "2026-11-20T05:00:00Z",
+    "severity": "medium"
+  }
+]
